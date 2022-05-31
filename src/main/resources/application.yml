@@ -1,0 +1,24 @@
+spring:
+  profiles:
+    active: test
+
+default:
+  sender: professor.henrique.trajano@gmail.com
+  recipient: professor.henrique.trajano@gmail.com
+
+jwt:
+  secret: SequenciaDeCharsParaAssinarOTokenJWT
+  expiration: 60000 #Tempo dado em mili segundos (neste caso 1 munuto apenas para testes)
+
+aws:
+  access_key_id: AKIAXLTXVRV7DEQSS34s25
+  secret_access_key: 1h+pJSjOGem0jtK7RKcJPQGjwUVKEPA2VVJu5yjs2y
+
+s3:
+  bucket: spring-ionic-trajy
+  region: sa-east-1
+
+cliente_profile:
+  picture:
+    prefix: cp
+    size: 200
